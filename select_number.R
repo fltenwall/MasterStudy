@@ -45,7 +45,7 @@ repeat{
       if(!is.na(item) && item > select_arr_mean){
         count <- count + 1
         # selected_data = append(selected_data,item)
-        selected_data[[count]] <- count
+        selected_data[[count]] <- item
       }
       if(count >= max_count){
         break
@@ -59,9 +59,3 @@ repeat{
 print(selected_data)
 selected_data_mean <- mean(selected_data)
 print(selected_data_mean)
-
-
-
-
-
-
