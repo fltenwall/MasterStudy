@@ -1,4 +1,3 @@
-
 data <- array(runif(1000000,0,1), dim=c(100,100,100)); 
 
 count <- 0
@@ -9,7 +8,7 @@ first_level_random_selected <- list()
 second_level_random_selected <- list()
 third_level_random_selected <- list()
 
-selected_data <- array()
+selected_data <- array(runif(100,1), dim=c(100,1));
 
 repeat{
   first_level_random <- sample(1:100, 1)
@@ -45,8 +44,8 @@ repeat{
   for(item in select_arr){
       if(!is.na(item) && item > select_arr_mean){
         count <- count + 1
-        selected_data = append(selected_data,item)
-        # selected_data[[length(selected_data)+1]] <- count
+        # selected_data = append(selected_data,item)
+        selected_data[[count]] <- count
       }
       if(count >= max_count){
         break
@@ -65,6 +64,4 @@ print(selected_data_mean)
 
 
 
-
-  
 
