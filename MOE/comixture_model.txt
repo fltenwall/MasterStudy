@@ -1,0 +1,27 @@
+n = 1000
+
+gamma0cancer = runif(5)  # true gamma
+gamma1cancer = runif(5)
+gamma0trait = runif(4)
+gamma1trait = runif(4)
+
+x = rnorm(n)
+
+hcancer = rep(1,n)%*% t(gamma0cancer) + x%*%t(gamma1cancer)
+a = apply(hcancer,1,which.max)
+
+htrait = rep(1,n)%*% t(gamma0trait) + x%*%t(gamma1trait)
+b = apply(htrait,1,which.max)
+
+
+alpha0cancer = runif(5) # true alpha
+alpha1cancer = runif(5)
+alpha0trait = runif(4)
+alpha1trait = runif(4)
+
+y = alpha0cancer[a]+alpha0trait[b]+(alpha1cancer[a]+alpha1trait[b])*x+ 0.01*rnorm(n)
+
+
+design algorithm input x, y ,5,4, and output guessed gamma and alpha.
+
+Then check the root mean squared error of (est gamma-true gamma) and (est alpha- true alpha)
