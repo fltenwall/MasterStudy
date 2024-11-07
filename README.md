@@ -12,6 +12,14 @@
 
 [6 Types of Probability Distribution in Data Science](https://www.analyticsvidhya.com/blog/2017/09/6-probability-distributions-data-science/)
 
+[线性回归参数的极大似然估计和最小二乘估计](https://sm1les.com/2018/11/27/linear-regression-maximum-likelihood/)
+
+[线性模型参数的极大似然估计(R)](https://helixcn.github.io/2014/11/07/2014-11-8-mlinlm/)
+
+[最大似然估计-鲁老师](https://lulaoshi.info/deep-learning/linear-model/maximum-likelihood-estimation.html)
+
+[从最大似然估计开始，你需要打下的机器学习基石 机器之心](https://www.jiqizhixin.com/articles/2018-01-09-6)
+
 ## 电子书
 
 [BOOKDOWN](https://bookdown.org/) R语言的开源电子书社区
