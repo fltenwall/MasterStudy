@@ -27,3 +27,7 @@
 [数据科学中的 R 语言](https://bookdown.org/wangminjie/R4DS/)
 
 [Practical Data Science in Python](https://www.practicaldatascience.org/intro.html)
+
+## AI-TOOL
+
+[perplexity](https://www.perplexity.ai/)
