@@ -31,3 +31,9 @@
 ## AI-TOOL
 
 [perplexity](https://www.perplexity.ai/)
+
+## Combinatorics (組合數學)
+
+[组合设计漫谈 陽明交通大學應用數學系](https://www.math.nycu.edu.tw/UPLOAD_FILES/NEWS_FILES/107_2.pdf)
+[組合設計簡介 陽明交通大學應用數學系](https://hlfu.math.nycu.edu.tw/getCourseFile.php?CID=478&type=browser)
+[Practical Numbers and Simple BIBDs 孫新民](https://amath2.nchu.edu.tw/comb2019/%E5%85%A9%E5%B2%B8%E6%9C%83%E8%AD%B0%E6%8A%95%E5%BD%B1%E7%89%87/%E5%AD%AB%E6%96%B0%E6%B0%91.pdf)
